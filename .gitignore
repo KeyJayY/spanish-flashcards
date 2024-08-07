@@ -1,0 +1,7 @@
+.env
+
+package-lock.json
+
+public/css/
+
+node_modules/

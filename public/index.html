@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Spanish</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src='main.js' async></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="sidebar-activator">
+        <label for="sidebar-activator" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M140-254.62v-59.99h680v59.99H140ZM140-450v-60h680v60H140Zm0-195.39v-59.99h680v59.99H140Z"/></svg>
+        </label>
+        <div class="links-container">
+            <label for="sidebar-activator" class="close-sidebar-button">
+                 <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M256-213.85 213.85-256l224-224-224-224L256-746.15l224 224 224-224L746.15-704l-224 224 224 224L704-213.85l-224-224-224 224Z"/></svg>
+            </label>
+            <div class="logo">S</div>
+
+            <ul class="navbar-nav">
+                <li class="home"><a href="#">Home</a></li>
+                <li><a href="#">Dictionary</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <ul class="cards-list">
+            <li class="card">
+                <div class="front"><button onclick="appendList()">Load more words</button></div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
